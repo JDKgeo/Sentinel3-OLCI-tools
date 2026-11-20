@@ -1,0 +1,13 @@
+name: olci-tools
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - xarray
+  - netcdf4
+  - numpy
+  - matplotlib
+  - cartopy
+  - jupyterlab
+  - pip
+  - pip:
+      - git+https://github.com/hygeos/polymer.git
